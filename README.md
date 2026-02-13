@@ -1,7 +1,7 @@
 # SMTP Simple User Enum
 Un script en Bash ligero y robusto diseñado para la enumeración de usuarios en servidores SMTP utilizando el comando VRFY.
 
-Esta herramienta fue creada específicamente para resolver problemas de inestabilidad en conexiones SMTP durante pruebas de penetración (CTFs, HackTheBox, etc.), donde los servidores suelen cortar la conexión o bloquear por exceso de errores.
+Esta herramienta fue creada específicamente para resolver problemas de inestabilidad en conexiones SMTP durante la CPTS, donde los servidores suelen cortar la conexión, bloquear por exceso de errores o directamente algunas tools no sirven. 
 
 ### Características Principales
 - Detecta automáticamente desconexiones (Broken pipe, Connection reset) y restablece la sesión TCP sin detener el escaneo.
